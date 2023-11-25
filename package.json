@@ -1,0 +1,14 @@
+{
+  "name": "typescript_test",
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "gifts": "npm run build && node gifts.js"
+  },
+  "main": "index.ts"
+}
